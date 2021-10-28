@@ -24,6 +24,11 @@ body{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #ffc107;
 }
+.table-logo{
+display: flex;
+align-items: center;
+background-size: contain;
+}
 .woodies-furniture{
     min-height: 415px;
 }
