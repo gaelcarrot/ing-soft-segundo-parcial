@@ -11,7 +11,7 @@ body{
     background: url(../img/header-table.jpg);
     background-repeat: no-repeat;
     background-size: contain;  
-    position:absolute;
+    position: absolute;
     top: 0;  
     right: 0;
     z-index: -1;
@@ -38,5 +38,4 @@ body{
 .woodies-furniture p{
     font-style: 1.5rem;
     font-weight: 600;
-    color: #000;
 }
