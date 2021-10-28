@@ -1,7 +1,10 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
-
+.header{
+    min-height: 800px;
+    margin-bottom: 120px;
+}
 .header-table{
     width: 50%;
     height: 800px;
@@ -20,4 +23,20 @@ body{
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #ffc107;
+}
+.woodies-furniture{
+    min-height: 415px;
+}
+.woodies-text-center{
+    display: flex;
+    align-items: center;
+}
+.woodies-furniture h3{
+    color: #3e3f43;
+    font-size: 2.25rem;
+}
+.woodies-furniture p{
+    font-style: 1.5rem;
+    font-weight: 600;
+    color: #000;
 }
