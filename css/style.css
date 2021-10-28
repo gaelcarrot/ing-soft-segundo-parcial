@@ -1,3 +1,23 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
+
+.header-table{
+    width: 50%;
+    height: 800px;
+    background: url(../img/header-table.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    position:absolute;
+    top: 0;  
+    right: 0;
+    z-index: -1;
+}
+.header-container{
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffc107;
+}
