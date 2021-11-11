@@ -6,41 +6,44 @@ body{
     margin-bottom: 120px;
 }
 .header-table{
-    width: 50%;
+    width: 630px;
     height: 800px;
     background: url(../img/header-table.jpg);
     background-repeat: no-repeat;
-    background-size: contain;  
+    background-size: cover;
     position: absolute;
-    top: 0;  
-    right: 0;
+    top: 0%;
+    right: 0%;
     z-index: -1;
 }
+
 .header-container{
-    height: 550px;
+    height: 540px;
     display: flex;
     align-items: center;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffc107;
+.nav-link.active{
+    color: #DAA520 !important;
 }
-.table-logo{
-display: flex;
-align-items: center;
-background-size: contain;
+.funiture-text-center{
+    align-items: center;
+
 }
-.woodies-furniture{
+.funiture{
     min-height: 415px;
 }
-.woodies-text-center{
-    display: flex;
-    align-items: center;
-}
-.woodies-furniture h3{
-    color: #3e3f43;
+.funiture h3{
+    color: #3E3F43;
     font-size: 2.25rem;
 }
-.woodies-furniture p{
-    font-style: 1.5rem;
+.funiture p{
+    font-size: 1.5rem;
     font-weight: 600;
+}
+.header-with-logo{
+    background: url(../css/logito.jpg);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    
+
 }
