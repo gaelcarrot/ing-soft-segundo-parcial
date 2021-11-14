@@ -41,7 +41,7 @@ body{
     font-weight: 600;
 }
 .header-with-logo{
-    background: url(../img/logito.jpg);
+    background: url(../img/logito1.png);
     background-repeat: no-repeat;
     margin-left: 30px;
     padding-left: 60px;
@@ -50,11 +50,11 @@ body{
     background: url(../img/cucharas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 384px;
-    width: 20%;
+    height: 360px;
+    width: 17%;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 16px;
+    top: -15px;
 }
 .text-gray-opacity{
     color: rgba(34,34,34, 0.1);
@@ -80,12 +80,29 @@ body{
 }
 .logo3{
     min-height: 415px;
+    text-align: center;
+    width: 91%;
+    height: 0%;
 }
 
 .with-logo3{
-    background: url(../img/logo3.png);
+    background: url(../img/logito1.png);
     background-repeat: no-repeat;
-    margin-left: 200px;
-    padding-left: 70px;
-    align-items: center;
+    margin-left: -30px;
+    padding-left: 40px;
+}
+.logo3{
+    font-size: 1.75rem;
+    
+}
+.h3{
+    color: #3E3F43;
+    font-size: 1.25rem;
+    width: 105%;  
+}
+.header-with-logo1{
+    background: url(../img/logito1.png);
+    background-repeat: no-repeat;
+    margin-left: -30px;
+    padding-left: 60px;
 }
