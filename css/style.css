@@ -84,6 +84,11 @@ body{
     width: 91%;
     height: 0%;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: -55px;
+}
 
 .with-logo3{
     background: url(../img/logito1.png);
@@ -105,4 +110,103 @@ body{
     background-repeat: no-repeat;
     margin-left: -30px;
     padding-left: 60px;
+}
+.desk{
+    background: url(../img/desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 17%;
+    position: absolute;
+    right: 1000px;
+    top: 10px;
+}
+.chair{
+    background: url(../img/chairjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 17%;
+    position: absolute;
+    right: 600px;
+    top: 10px;
+}
+.kitchenware{
+    background: url(../img/kitchenware.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 17%;
+    position: absolute;
+    right: 200px;
+    top: 10px;
+}
+.book{
+    background: url(../img/Book\ Shelf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 17%;
+    position: absolute;
+    right: 1000px;
+    top: 280px;
+}
+.electronics{
+    background: url(../img/electronics.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+    width: 17%;
+    position: absolute;
+    right: 600px;
+    top: 280px;
+}
+.boton4{
+    position: relative;
+    top: 240px;
+}
+.testimony-logo{
+    background: url(../img/testimony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    width: 17%;
+    position: absolute;
+    right: 1000px;
+    top: 800px; 
+}
+.testimony-logo1{
+    background: url(../img/testimony1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    width: 17%;
+    position: absolute;
+    right: 666px;
+    top: 800px; 
+}
+.testimony-logo3{
+    background: url(../img/sandra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 24%;
+    position: absolute;
+    right: 335px;
+    top: 750px; 
+}
+.logo5{
+    position: relative;
+    top: 100px;
+    padding: 2px;
+}
+.logo7{
+    position: relative;
+    top: 100px;
+    padding: 2px;
+    right: -200px;
+}
+.small{
+    font-size: 0.7rem;
+    margin-top: 80px;
 }
