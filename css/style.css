@@ -211,20 +211,42 @@ body{
     margin-top: 80px;
 }
 button, input, optgroup, select, textarea {
-    margin: -21px;
+    margin: -80px;
     font-family: inherit;
     font-size: inherit;
     position: absolute;
     line-height: inherit;
-    right: 45px;
+    right: 110px;
     height: 45px;
     width: 300px;
 }
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
     position: absolute;
-    right: -75px;
+    right: -30px;
     height: 45px;
-    margin: -45px;
-    width: 140px;
+    margin: -50px;
+    width: 100px;
+    top: 68%;
+}
+.information{
+    position: relative;
+    bottom: 30px;
+    word-spacing: 60px;
+    top: 0px;
+    right: -47px;
+    text-align: center;
+}
+.textforni{
+    position: relative;
+    font-size: 15px;
+    word-spacing: 80px;
+    text-align: center;
+    right: -45px;
+}
+.info{
+font-size: 17px;
+position: relative;
+bottom: 174px;
+right: -40px;
 }
