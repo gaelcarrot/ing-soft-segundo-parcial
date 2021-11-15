@@ -210,3 +210,21 @@ body{
     font-size: 0.7rem;
     margin-top: 80px;
 }
+button, input, optgroup, select, textarea {
+    margin: -21px;
+    font-family: inherit;
+    font-size: inherit;
+    position: absolute;
+    line-height: inherit;
+    right: 45px;
+    height: 45px;
+    width: 300px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    position: absolute;
+    right: -75px;
+    height: 45px;
+    margin: -45px;
+    width: 140px;
+}
