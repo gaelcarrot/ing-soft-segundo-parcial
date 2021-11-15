@@ -267,3 +267,25 @@ button{
     right: -100px;
     width: 100px;
 }
+.imagen{
+    background: url(../img/logotipo-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35px;
+    width: 18%;
+    position: absolute;
+    right: 850px;
+    top: 1366px; 
+}
+
+.final {
+    height:665px;
+    background: url("../img/mesa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 35%;
+    position: absolute;        
+    right: -130px;
+    top: 1255px;   
+  }
